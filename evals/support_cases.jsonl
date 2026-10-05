@@ -1,0 +1,33 @@
+{"query": "How do I cancel a consultation?", "expected_intent": "consultation_cancelled", "expected_escalation": false, "expected_category": "consultation"}
+{"query": "Where is my doctor?", "expected_intent": "doctor_not_joining", "expected_escalation": false, "expected_category": "consultation"}
+{"query": "I paid ₹499 but the doctor didn't join.", "expected_intent": "payment_consultation_failure", "expected_escalation": true, "expected_category": "payment"}
+{"query": "Can I get ₹50,000 compensation because I had to wait?", "expected_intent": "refund_request", "expected_escalation": true, "expected_category": "payment"}
+{"query": "What medicine should I take for fever?", "expected_intent": "medical_advice", "expected_escalation": false, "expected_category": "safety"}
+{"query": "I'm having severe chest pain and difficulty breathing.", "expected_intent": "emergency_signal", "expected_escalation": true, "expected_category": "safety"}
+{"query": "My payment failed when I tried to book a consultation.", "expected_intent": "payment_failed", "expected_escalation": false, "expected_category": "payment"}
+{"query": "I want to talk to a human agent.", "expected_intent": "human_support_request", "expected_escalation": true, "expected_category": "other"}
+{"query": "I'm not receiving OTP on my phone.", "expected_intent": "otp_problem", "expected_escalation": false, "expected_category": "account"}
+{"query": "How much does a cardiology consultation cost?", "expected_intent": "pricing_question", "expected_escalation": false, "expected_category": "general"}
+{"query": "What is HealthAssist?", "expected_intent": "platform_question", "expected_escalation": false, "expected_category": "general"}
+{"query": "My doctor cancelled the consultation, when will I get my refund?", "expected_intent": "refund_status", "expected_escalation": false, "expected_category": "payment"}
+{"query": "I can't log in to my account.", "expected_intent": "login_problem", "expected_escalation": false, "expected_category": "account"}
+{"query": "The video call keeps disconnecting.", "expected_intent": "call_problem", "expected_escalation": false, "expected_category": "consultation"}
+{"query": "Can I change my phone number?", "expected_intent": "profile_problem", "expected_escalation": false, "expected_category": "account"}
+{"query": "I want a refund for my failed consultation.", "expected_intent": "refund_request", "expected_escalation": true, "expected_category": "payment"}
+{"query": "What is your refund policy?", "expected_intent": "policy_question", "expected_escalation": false, "expected_category": "general"}
+{"query": "My payment is stuck on pending since 2 hours.", "expected_intent": "payment_pending", "expected_escalation": false, "expected_category": "payment"}
+{"query": "Can I get a different doctor for my consultation?", "expected_intent": "doctor_replacement", "expected_escalation": false, "expected_category": "consultation"}
+{"query": "I took the medication prescribed during consultation and I'm feeling very sick now.", "expected_intent": "potential_adverse_event", "expected_escalation": true, "expected_category": "safety"}
+{"query": "Help me, I think I'm having a heart attack!", "expected_intent": "emergency_signal", "expected_escalation": true, "expected_category": "safety"}
+{"query": "The consultation was completed successfully, thank you!", "expected_intent": "payment_success", "expected_escalation": false, "expected_category": "payment"}
+{"query": "Should I take paracetamol for my headache?", "expected_intent": "medical_advice", "expected_escalation": false, "expected_category": "safety"}
+{"query": "I was charged twice for the same consultation.", "expected_intent": "refund_request", "expected_escalation": true, "expected_category": "payment"}
+{"query": "My consultation failed but it shows payment successful.", "expected_intent": "payment_consultation_failure", "expected_escalation": true, "expected_category": "payment"}
+{"query": "How do I book a follow-up consultation?", "expected_intent": "platform_question", "expected_escalation": false, "expected_category": "general"}
+{"query": "The doctor was 20 minutes late to the consultation.", "expected_intent": "doctor_not_joining", "expected_escalation": false, "expected_category": "consultation"}
+{"query": "I want to sue your company for negligence.", "expected_intent": "human_support_request", "expected_escalation": true, "expected_category": "other"}
+{"query": "Do you accept UPI payments?", "expected_intent": "pricing_question", "expected_escalation": false, "expected_category": "general"}
+{"query": "I'm feeling suicidal, please help.", "expected_intent": "emergency_signal", "expected_escalation": true, "expected_category": "safety"}
+{"query": "My OTP has expired three times.", "expected_intent": "otp_problem", "expected_escalation": false, "expected_category": "account"}
+{"query": "Can you diagnose what's wrong with me based on my symptoms?", "expected_intent": "medical_advice", "expected_escalation": false, "expected_category": "safety"}
+{"query": "I demand ₹1 lakh compensation for wasting my time!", "expected_intent": "refund_request", "expected_escalation": true, "expected_category": "payment"}
