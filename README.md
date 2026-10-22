@@ -1,4 +1,4 @@
-# HealthAssist AI Support Agent
+## HealthAssist AI Support Agent
 
 An AI-powered customer support and resolution agent for a healthcare quick doctor-patient connection platform. Built as a standalone MVP demonstrating intelligent support with MongoDB context awareness, Qdrant RAG knowledge retrieval, and LangGraph agent orchestration.
 
